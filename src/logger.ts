@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+import colors from 'colors'; // Importation du module 'colors'
 
 enum LogLevel {
   INFO = "INFO",
@@ -19,19 +19,19 @@ class Logger {
   }
 
   public static info(message: string): void {
-    console.log(chalk.green(Logger.formatMessage(LogLevel.INFO, message))); // Couleur verte pour INFO
+    console.log(colors.green(Logger.formatMessage(LogLevel.INFO, message))); // Vert pour INFO
   }
 
   public static warn(message: string): void {
-    console.warn(chalk.yellow(Logger.formatMessage(LogLevel.WARN, message))); // Couleur jaune pour WARN
+    console.warn(colors.yellow(Logger.formatMessage(LogLevel.WARN, message))); // Jaune pour WARN
   }
 
   public static error(message: string): void {
-    console.error(chalk.red(Logger.formatMessage(LogLevel.ERROR, message))); // Couleur rouge pour ERROR
+    console.error(colors.red(Logger.formatMessage(LogLevel.ERROR, message))); // Rouge pour ERROR
   }
 
   public static debug(message: string): void {
-    console.debug(chalk.cyan(Logger.formatMessage(LogLevel.DEBUG, message))); // Couleur cyan pour DEBUG
+    console.debug(colors.cyan(Logger.formatMessage(LogLevel.DEBUG, message))); // Cyan pour DEBUG
   }
 }
 
