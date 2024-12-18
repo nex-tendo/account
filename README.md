@@ -7,6 +7,18 @@
 - Build the server `npm run build`.
 - Run the server `npm run start`.
 
+## Features
+- [ ] NNAS
+  - [ ] Admin
+  - [ ] Content
+  - [x] Devices
+  - [ ] Oauth
+  - [ ] People
+  - [ ] Provider
+  - [ ] Support
+- [ ] NASC
+- [ ] CONNTEST
+
 ## Configuration
 
 | Name                                          | Description                                                                                      | Optional |
