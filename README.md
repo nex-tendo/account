@@ -17,7 +17,7 @@
   - [ ] Provider
   - [ ] Support
 - [ ] NASC
-- [ ] CONNTEST
+- [x] CONNTEST
 
 ## Configuration
 
